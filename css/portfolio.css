@@ -1,0 +1,36 @@
+/* Filtr */
+
+.filter-list .button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.filter-list .button:hover,
+.filter-list .button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Projects */
+
+.project-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-list .link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-list .text {
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+}
