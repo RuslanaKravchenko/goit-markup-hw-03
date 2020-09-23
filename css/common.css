@@ -38,6 +38,9 @@ ul {
   outline: 2px solid tomato;
 }
 
+.section {
+  outline: 2px dashed gray;
+}
 /* Page header */
 
 /* Logo */
@@ -117,6 +120,11 @@ ul {
 
 footer {
   background-color: var(--accent-bg-color);
+}
+
+.section.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address {

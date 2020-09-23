@@ -1,3 +1,7 @@
+.section.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* Filtr */
 
 .filter-list .button {
@@ -38,7 +42,7 @@
 
 .project-list .text {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 187% */

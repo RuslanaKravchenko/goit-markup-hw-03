@@ -27,10 +27,6 @@
 
 /* Section */
 
-.section {
-  outline: 2px dashed gray;
-}
-
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
