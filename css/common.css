@@ -5,6 +5,8 @@
 /* основной цвет фона #FFFFFF */
 /* вторичный цвет фона #F5F4FA */
 /* цвет акцентов фота #2F303A */
+/* основной цвет бордера в портфолио #EEEEEE */
+/* вторичный цвет бордера в портфолио #ECECEC */
 
 :root {
   --primary-text-color: #757575;
@@ -13,6 +15,8 @@
   --primary-white-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
   --accent-bg-color: #2f303a;
+  --primary-border-color: #eeeeee;
+  --secondary-border-color: #ececec;
 }
 
 body {
@@ -33,6 +37,19 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container {
@@ -43,13 +60,12 @@ img {
   width: 1200px;
   padding: 0 15px;
 
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
-
-/* потом убрать!!! */
+/* 
 .section {
-  outline: 2px dashed gray;
-}
+  outline: 1px dotted turquoise;
+} */
 
 /* Button */
 .button {
@@ -69,6 +85,11 @@ img {
 }
 
 /* Page header */
+
+.header {
+  border-bottom: 1px solid var(--secondary-border-color);
+}
+
 .main-nav {
   display: flex;
   align-items: center;
