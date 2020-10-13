@@ -51,7 +51,6 @@
 }
 
 .features-list .item {
-  /* flex-basis: 270px; */
   flex-basis: calc((100% - 3 * 30px) / 4);
 }
 
