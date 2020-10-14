@@ -1,11 +1,10 @@
 /* Hero */
 
-.hero-wrapper {
-  background-color: var(--accent-bg-color);
-}
-
 .hero {
   text-align: center;
+  background-color: var(--accent-bg-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
